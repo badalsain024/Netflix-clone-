@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url('assests/bg.jpg');
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative;
+}
+.main .box{
+    height: 644px;
+    width: 100%;
+    position: absolute;
+    opacity: 0.69;
+    background-color: black;
+    top: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    height: 100px;
+    max-width: 66vw;
+}
+nav img{
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    width: 50px;
+    height: 20px;
+    z-index: 10;
+    position: relative;
+    border-radius: 4px;
+    border: 2px white;
+}
+.hero{
+    font-family: 'martel sens' ,sans-serif;
+    height: calc(100% - 100px);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    gap: 23px;
+    position: relative;
+    padding: 0 30px;
+    
+
+}
+.hero button{
+    color: white;
+    background-color: rgb(248, 12, 12);
+    width: 170px;
+    height: 50px;
+    font-size: 20px;
+    z-index: 10;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 2px solid white;
+}
+.separation {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+.main input{
+    color: dark floralwhite;
+    background-color: rgba(23, 23, 23, 0.23);
+    font-size: 20px;
+    height: 30px;
+    width: 250px;
+    border-radius: 4px;
+    border-color: white;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+
+}
+.secimg{
+    position: relative;
+}
+.secimg img{
+    position: relative;
+    z-index: 10;
+    width: 555px;
+}
+.secimg video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 555px;
+}
+section.first>div{
+    display: flex;
+    padding: 34px 0;
+    flex-direction: column;
+
+}
+section.first>div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+section.first>div :nth-child(2){
+    font-size: 23px;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+section.second>div{
+    display: flex;
+    padding: 0 34px;
+    flex-direction: column;
+
+}
+section.second>div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+section.second>div :nth-child(2){
+    font-size: 23px;
+}
+.third{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+
+}
+.secImg3{
+    position: relative;
+}
+.secImg3 img{
+    position: relative;
+    z-index: 10;
+    width: 555px;
+}
+.secImg3 video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 555px;
+}
+section.third>div{
+    display: flex;
+    padding: 34px 0;
+    flex-direction: column;
+
+}
+section.third>div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+section.third>div :nth-child(2){
+    font-size: 23px;
+}
+.sidebar {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.3s;
+      padding-top: 60px;
+    }
+
+    .sidebar a {
+      padding: 10px 20px;
+      text-decoration: none;
+      font-size: 18px;
+      color: white;
+      display: block;
+      transition: 0.3s;
+    }
+
+    .sidebar a:hover {
+      background-color: #575757;
+    }
+
+    /* Open/Close button */
+    .openbtn {
+      font-size: 20px;
+      cursor: pointer;
+      background-color: #111;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+    }
+
+    /* Content */
+    #main {
+      transition: margin-left 0.3s;
+      padding: 20px;
+    }
